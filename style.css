@@ -1,0 +1,40 @@
+img { 
+    height: 200px;
+    width: 250px;
+    border: 1.5px solid black;
+    margin: 0px 10px 30px 20px;
+    margin-left: 60px;
+} 
+p {
+    font-size: 30px;
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(55, 143, 33)
+}
+nav ul li { 
+    border: 1px solid green;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+    border-radius: 10px;
+} 
+h1, p { 
+    margin-left: 60px;
+}
+li:hover {
+    background-color: rgb(255, 174, 0);
+
+
+  }
+  a {
+    text-decoration: none;
+  }
